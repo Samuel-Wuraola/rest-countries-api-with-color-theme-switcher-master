@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;800&display=swap">
+    <link rel="stylesheet" href="CSS/style2.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <header>
+            <h2><a href="index.html">Where in the world?</a></h2>
+            <div class="dark-light">
+                <span><i class="far fa-moon"></i></span><p>Dark mode</p>
+            </div>
+        </header>
+
+        <main>
+            <section class="user-input">
+                <input type="text" id="search"  name="search" placeholder="Search for a country">
+                <select name="user_filter" id="filter">
+                    <option value="ALL">Filter by region</option>
+                    <option value="AF">Africa</option>
+                    <option value="AM">Americas</option>
+                    <option value="AS">Asia</option>
+                    <option value="EU">Europe</option>
+                    <option value="OC">Oceania</option>
+                </select>
+            </section>
+
+            <section class="content">
+                <!--HTML INJECTED BY APP.JS -->
+            </section>
+
+            <section class="extra">
+                <div>
+                    <button><i class="fas fa-arrow-left"></i>Back</button>
+                </div>
+                <div class="details">
+                    <!-- <div class="more-details">
+                    </div>
+                    <div class="border">
+                    </div> -->
+                </div>
+                <!-- <div class="more-details">
+                </div> -->
+                <div class="border">
+                </div> 
+            </section>
+        </main>
+</div><!--end of wrapper-->
+<script src="https://kit.fontawesome.com/60ec90e1e1.js" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>
